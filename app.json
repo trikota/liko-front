@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "frontend",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "primaryColor": "#0098D3",
+    "splash": {
+      "image": "./assets/images/icon_src.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/images/icon_ios.png",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": true,
+        "NSCameraUsageDescription": "Фото з камери буде використано як доказ наданих даних",
+        "NSPhotoLibraryUsageDescription": "Фото з галереї буде використано як доказ наданих даних"
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
